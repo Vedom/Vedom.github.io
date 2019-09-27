@@ -1,7 +1,7 @@
 # PySpark
 
 ``` python
-check_uniqueness(dat1, dat2, id_col):
+def check_uniqueness(dat1, dat2, id_col):
   """Checks whether two dataframes have any overlapping
   unique identifiers.
 

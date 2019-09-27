@@ -31,7 +31,7 @@ def check_uniqueness(dat1, dat2, id_col):
   overlap_count = dat1.join(dat2, [id_col]).count()
   dat1_repeat_count = dat1.select(id_col).count() - dat1.select(id_col).distinct().count()
   dat2_repeat_count = dat2.select(id_col).count() - dat2.select(id_col).distinct().count()
-  if sum(overlap_count, dat1_repeat_count, dat2_repeat_count)==0:
+  if sum([overlap_count, dat1_repeat_count, dat2_repeat_count])==0:
     unique_check_passed = True
   else:
     unique_check_passed = False

@@ -38,6 +38,8 @@ Information is passed through these modules via the "**cell state**." It interac
 
 <p align="center">
   <img width="150" src="http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-C-line.png">
+</p>
+<p align="center">
   Cell state. This is the note that each version of the amnesiac passes forward to the next module.
 </p>
 
@@ -45,8 +47,10 @@ Information is passed through these modules via the "**cell state**." It interac
 **Gates** are a sigmoid layer and a pointwise multiplication operator. The sigmoid layer squashes the output to \[0, 1\]. This means that only a certain proportion of each component of the input to the gate will make it through to the **cell state**. The pointwise multiplication operator simply applies those proportions to the incoming weights. There are three gates in the LSTM providing this filtering function.
 
 <p align="center">
-  <img height="125" src="http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-gate.png">
-  Cell state. This is the note that each version of the amnesiac passes forward to the next module.
+  <img width="125" src="http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-gate.png">
+</p>
+<p align="center">
+  Gate. This filters out stuff.
 </p>
 
 ## LSTMs One Step at a Time
@@ -54,6 +58,8 @@ Information is passed through these modules via the "**cell state**." It interac
 This layer decides what information to remove from the [cell state](#cell-states). Here's what that layer looks like more closely
 
 <p align="center">
-  <img height="125" src="http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-focus-f.png">
+  <img width="200" src="http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-focus-f.png">
+</p>
+<p align="center">
   Forget gate. This is the note that each version of the amnesiac passes forward to the next module.
 </p>

@@ -13,3 +13,7 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
+  - index.md
+  - Python.md
+  - RNNs.md
+  

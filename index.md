@@ -1,8 +1,8 @@
 # Bunkum & Balderdash
 _One man's nonsense is another man's documentation._
 
-## Notes: ##
+## Notes:
 - PySpark
-- Python
+- [Python](Python.md)
 - R
 - [RNNs](RNNs.md)

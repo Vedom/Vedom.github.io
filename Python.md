@@ -1,5 +1,5 @@
 # Python
-## Necessary functions? Not necessarily. But here they are anyway.
+#### Necessary functions? Not necessarily. But here they are anyway.
 
 These two are inspired by this blog [here](https://towardsdatascience.com/there-is-no-argmax-function-for-python-list-cd0659b05e49).
 

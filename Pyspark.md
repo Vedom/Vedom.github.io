@@ -1,7 +1,7 @@
 # PySpark
 
-``` pyspark
-check_uniqueness(dat1, dat2, id_col)
+``` python
+check_uniqueness(dat1, dat2, id_col):
   """Checks whether two dataframes have any overlapping
   unique identifiers.
 
@@ -16,6 +16,8 @@ check_uniqueness(dat1, dat2, id_col)
 
   Returns
   -------
+  unique_check_passed: bool
+    True if all checks equal 0, otherwise False.
   overlap_count: int
     Count of identifiers in both dataframes.
     0 if no overlap between dataframes' identifiers.
@@ -29,5 +31,9 @@ check_uniqueness(dat1, dat2, id_col)
   overlap_count = dat1.join(dat2, [id_col]).count()
   dat1_repeat_count = dat1.select(id_col).count() - dat1.select(id_col).distinct().count()
   dat2_repeat_count = dat2.select(id_col).count() - dat2.select(id_col).distinct().count()
-  return overlap_count, dat1_repeat_count, dat2_repeat_count
+  if sum(overlap_count, dat1_repeat_count, dat2_repeat_count)==0:
+    unique_check_passed = True
+  else:
+    unique_check_passed = False
+  return unique_check_passed, overlap_count, dat1_repeat_count, dat2_repeat_count
 ```

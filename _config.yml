@@ -17,3 +17,4 @@ include:
   - Python.md
   - RNNs.md
   - Pyspark.md
+  - Basics.md

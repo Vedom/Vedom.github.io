@@ -13,6 +13,7 @@ This is an RNN:
 An RNN is copies of the same network passing messages forward form the prior RNN. Kind of like an amnesiac who can only inform the next version of themselves through a single sticky note.
 
 The forward pass of the RNN:
+
 ```python
 class RNN:
   def step(self, x):
@@ -20,7 +21,8 @@ class RNN:
     self.h = np.tanh(np.dot(self.W_hh, self.h) + np.dot(self.W_xh, x))
     # compute the output vector
     y = np.dot(self.W_hy, self.h)
-    return y```
+    return y
+```
 
 
 ## LSTMs: Chained RNNs with Special Structure

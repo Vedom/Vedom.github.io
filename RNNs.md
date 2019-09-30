@@ -4,9 +4,15 @@ My distilled notes from various sources including Christopher Olah's explanation
 
 This is an RNN:
 <p align="center">
-  <img width="125" src="http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/RNN-rolled.png">
+  <img width="500" src="http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/RNN-rolled.png">
+</p>
+<p align="center">
   RNN rolled up
-<img width="125" src="http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/RNN-unrolled.png" caption="This is a Recurrent Neural Network, hear it roar." >
+</p>
+<p align="center">
+<img width="125" src="http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/RNN-unrolled.png" >
+</p>
+<p align="center">
   RNN unrolled
 </p>
 
@@ -35,7 +41,7 @@ LSTMs have modules with four layers. These layers also have specific interaction
 <p>
   <img width="400" src="http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM2-notation.png">
 </p>
-<p>
+<p align="center">
   Repeating module in an LSTM. Note the four specially structured layers.
 </p>
 

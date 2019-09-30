@@ -63,3 +63,9 @@ This layer decides what information to remove from the [cell state](#cell-states
 <p align="center">
   Forget gate. This is the note that each version of the amnesiac passes forward to the next module.
 </p>
+
+### Embedding Layer
+This layer is used to create a numerical representation of the input word. This could be done using a traditional dummy variable. If that were the case then it would have the same length as the number of words in the vocabulary. However, this doesn't provide contextual information.
+#### Quick History
+For a time, unsupervised, distance-based embeddings were popular. Examples of unsupervised pretrained embeddings are word2vec, FastText, GloVe, and ELMo.
+word2vec and GloVe both assume that distance or context implies similar meaning. FastText extends word2vec to n-grams. n-grams help with out-of-training words. In ELMo, inputs are characters to help with unseen words.

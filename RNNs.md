@@ -28,13 +28,14 @@ class RNN:
 LSTMs have modules with four layers. These layers also have specific interactions to accomplish needed functions like memory, attention, and forgetting.
 
 <p align="center">
-  <img width="300" src="http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-chain.png">
+  <img width="500" src="http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-chain.png">
 </p>
 <p>
-<img width="250" src="http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM2-notation.png">
+  <img width="400" src="http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM2-notation.png">
+</p>
+<p>
   Repeating module in an LSTM. Note the four specially structured layers.
 </p>
-
 
 ### Cell States
 Information is passed through these modules via the "**cell state**." It interacts with the modules' networks through special linear gating functions or "gates." These assure that the information flowing through the LSTM is changed only when it potentially improves our loss function's objective.

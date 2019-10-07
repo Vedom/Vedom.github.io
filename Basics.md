@@ -1,5 +1,9 @@
 # Basics
 
+[Model Performance Metrics](#model-performance-metrics)
+[Confusion Matrix Based Metrics](#confusion-matrix-based-metrics)
+
+
 ## Model Performance Metrics
 
 ### Confusion Matrix Based Metrics
@@ -60,6 +64,8 @@ Range: -1 to 1
 
 In English: A correlation coefficient between the actual cases and their predictions.
 
+### Other Metrics
+
 #### ROC Curve and AUC
 **ROC Curve and AUC**
 Receiver Operating Characteristic curve and associated Area Under the Curve.
@@ -69,3 +75,27 @@ AUC is the area underneath this curve.
 AUC is equal to the probability that a classifier will rank a randomly chosen positive instance higher than a randomly chosen negative one.
 
 AKA: concordance statistic, c-statistic, A' (A-prime)
+
+
+## Statistics
+
+### P-value
+**p-value**: the probability that, when the null hypothesis is true, the statistical summary (such as the sample mean difference between two groups) would be equal to, or more extreme than, the actual observed results.
+
+In English: the probability that the alternative hypothesis is accepted is due to random chance.
+
+### Type I Error
+**Type I Error**: Rejecting the null hypothesis when in actuality it should be accepted.
+
+In English: Getting a false positive result.
+
+
+### Type II Error
+**Type II Error**: Accepting the null hypothesis when in actuality it should be rejected.
+
+In English: Getting a false negative result.
+
+### Power
+**power (of a test)**: the probability of avoiding type II error. Stated otherwise, the probability of rejecting H0 given that H1 is true.
+
+In English: The probability of avoiding a False Negative result. Or alternatively, the probability of rejecting the null hypothesis when it should be rejected (because H1 is actually true).

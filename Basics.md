@@ -58,7 +58,7 @@ AKA: F-measure, F1
 
 #### Matthews Correlation Coefficient
 **MCC** =
-          (TP * TN) - (FP * FN) / sqrt((TP + FP)(TP + FN)(TN + FP)(TN + FN))
+          ((TP * TN) - (FP * FN)) / sqrt((TP + FP)(TP + FN)(TN + FP)(TN + FN))
 
 Range: -1 to 1
 

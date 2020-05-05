@@ -64,6 +64,15 @@ Range: -1 to 1
 
 In English: A correlation coefficient between the actual cases and their predictions.
 
+### Recommender System Metrics
+**Mean Average Precision** 
+
+Fantastic explanation [here](http://sdsawtelle.github.io/blog/output/mean-average-precision-MAP-for-recommender-systems.html)
+
+In English: each user gets an average precision of the top n recommendations, then you take the mean of those to get 
+
+AKA: MAP
+
 ### Other Metrics
 
 #### ROC Curve and AUC

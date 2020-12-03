@@ -1,9 +1,15 @@
 # Bunkum & Balderdash
 _One man's nonsense is another man's documentation._
 
-## Notes:
+## Notes
+
+### Programming
 - [PySpark](Pyspark.md)
 - [Python](Python.md)
-- R
+
+### Stats & Metrics
 - [Basics](Basics.md)
+
+### ML/AI
 - [RNNs](RNNs.md)
+- [Computer Vision](Computer_Vision.md)

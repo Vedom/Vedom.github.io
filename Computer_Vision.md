@@ -14,7 +14,6 @@
 ### Data
 * [ImageNet](http://www.image-net.org/) 15m+ hi-res images labeled to ~22k categories
 * [Common Objects in Context (CoCo)](https://cocodataset.org/#home) 330k+ images with 200k labeled across 80 object categories, 91 stuff categories. Also has 250k people with keypoints and 5 captions per image.
-* [Neurohive](https://neurohive.io/en/)
 * [Sports-1M](https://cs.stanford.edu/people/karpathy/deepvideo/) Contains 1,133,158 video URLs which have been annotated automatically with 487 Sports labels using the YouTube Topics API (also available [here](https://github.com/gtoderici/sports-1m-dataset/))
 
 ### Pretrained Models & Architectures
@@ -27,3 +26,6 @@
 Second Edition](https://www.robots.ox.ac.uk/~vgg/hzbook/)
 * [Computer Vision: Algorithms and Applications, 2nd ed.](http://szeliski.org/Book/)
 * [CVOnline](http://homepages.inf.ed.ac.uk/rbf/CVonline/books.htm#online) Tons of online books
+
+### Blogs and Other Articles
+* [Neurohive](https://neurohive.io/en/)

@@ -73,7 +73,7 @@ In English: each user gets an average precision of the top n recommendations, th
 
 AKA: MAP
 
-### Other Metrics
+### Other Classification Metrics
 
 #### ROC Curve and AUC
 **ROC Curve and AUC**
@@ -84,6 +84,12 @@ AUC is the area underneath this curve.
 AUC is equal to the probability that a classifier will rank a randomly chosen positive instance higher than a randomly chosen negative one.
 
 AKA: concordance statistic, c-statistic, A' (A-prime)
+
+### Computer Vision Metrics
+** Intersection over Union (IoU)
+Evaluation metric in object detection for evaluating bounding box prediction. 
+
+In English: IoU is the ratio of the area of overlap between actual and predicted bounding box (numerator) and their union (denominator). Bounding boxes are the (x,y) coordinates of the object in the image. IoU > 0.5 is considered "acceptable" and is the typical threshold for a positive label of an instance in an image.
 
 
 ## Statistics

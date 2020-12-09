@@ -65,13 +65,13 @@ Range: -1 to 1
 In English: A correlation coefficient between the actual cases and their predictions.
 
 ### Recommender System Metrics
-**Mean Average Precision** 
+**Mean Average Precision (mAP)** 
 
 Fantastic explanation [here](http://sdsawtelle.github.io/blog/output/mean-average-precision-MAP-for-recommender-systems.html)
 
 In English: each user gets an average precision of the top n recommendations, then you take the mean of those to get 
 
-AKA: MAP
+AKA: MAP, mAP
 
 ### Other Classification Metrics
 
@@ -86,7 +86,7 @@ AUC is equal to the probability that a classifier will rank a randomly chosen po
 AKA: concordance statistic, c-statistic, A' (A-prime)
 
 ### Computer Vision Metrics
-** Intersection over Union (IoU)
+**Intersection over Union (IoU)**
 Evaluation metric in object detection for evaluating bounding box prediction. 
 
 In English: IoU is the ratio of the area of overlap between actual and predicted bounding box (numerator) and their union (denominator). Bounding boxes are the (x,y) coordinates of the object in the image. IoU > 0.5 is considered "acceptable" and is the typical threshold for a positive label of an instance in an image.

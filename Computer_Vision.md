@@ -14,6 +14,9 @@
 ### Data
 * [ImageNet](http://www.image-net.org/) 15m+ hi-res images labeled to ~22k categories
 * [Common Objects in Context (CoCo)](https://cocodataset.org/#home) 330k+ images with 200k labeled across 80 object categories, 91 stuff categories. Also has 250k people with keypoints and 5 captions per image.
+* [PASCAL Visual Object Classes (PASCAL VOC)](http://host.robots.ox.ac.uk/pascal/VOC/index.html) 11,530 labeled images across 20 classes for a total of 27k ROI objects and 7k segmentations. Provides standardised image data sets for object class recognition. 
+Provides a common set of tools for accessing the data sets and annotations
+Enables evaluation and comparison of different methods
 * [Sports-1M](https://cs.stanford.edu/people/karpathy/deepvideo/) Contains 1,133,158 video URLs which have been annotated automatically with 487 Sports labels using the YouTube Topics API (also available [here](https://github.com/gtoderici/sports-1m-dataset/))
 
 ### Pretrained Models & Architectures

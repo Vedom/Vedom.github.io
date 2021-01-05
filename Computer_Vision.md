@@ -23,6 +23,7 @@ The CIFAR-10 and CIFAR-100 are labeled subsets of the 80 million tiny images dat
 
 ### Pretrained Models & Architectures
 * [ModelZoo](https://modelzoo.co/)
+* [OpenCV](https://docs.opencv.org/)
 
 ### Books
 * [Computer Vision: A Modern Approach](http://luthuli.cs.uiuc.edu/~daf/CV2E-site/cv2eindex.html)

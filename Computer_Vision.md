@@ -32,5 +32,8 @@ Second Edition](https://www.robots.ox.ac.uk/~vgg/hzbook/)
 * [Computer Vision: Algorithms and Applications, 2nd ed.](http://szeliski.org/Book/)
 * [CVOnline](http://homepages.inf.ed.ac.uk/rbf/CVonline/books.htm#online) Tons of online books
 
+### Journal Articles
+* [Arxiv.org](https://arxiv.org/)
+
 ### Blogs and Other Articles
 * [Neurohive](https://neurohive.io/en/)

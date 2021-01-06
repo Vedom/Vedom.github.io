@@ -1,3 +1,4 @@
+[Home](index.md)
 # Python
 #### Necessary functions? Not necessarily. But here they are anyway.
 

@@ -19,3 +19,4 @@ include:
   - Pyspark.md
   - Basics.md
   - Computer_Vision.md
+  - CV_models.md

@@ -1,3 +1,4 @@
+[Home](index.md)
 # Recurrent Neural Nets
 ## (well, and LSTMs)
 My distilled notes from various sources including Christopher Olah's explanations [here](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) and Andrej Karpathy's [here](http://karpathy.github.io/2015/05/21/rnn-effectiveness/). These are my transliterations doing a level 3 read (see Mortimer J. Adler's "How to Read a Book", summary [here](https://fastertomaster.com/how-to-read-a-book-mortimer-j-adler/)).

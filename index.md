@@ -13,3 +13,4 @@ _One man's nonsense is another man's documentation._
 ### ML/AI
 - [RNNs](RNNs.md)
 - [Computer Vision](Computer_Vision.md)
+    - [Computer Vision Models](CV_models.md)

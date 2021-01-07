@@ -39,3 +39,19 @@
 ## FCNResnet 
 - built on ResNet, CoCo dataset
 
+# Pose Estimation Models
+
+Nice easy blog read through of seven models [here](https://nanonets.com/blog/human-pose-estimation-2d-guide/?utm_source=github&utm_medium=social&utm_campaign=pose&utm_content=cbsudux).
+1. DeepPose
+
+2. Efficient Object Localization Using Convolutional Networks
+
+3. Convolutional Pose Machines
+
+4. Human Pose Estimation with Iterative Error Feedback
+
+5. Stacked Hourglass Networks for Human Pose Estimation
+
+6. Simple Baselines for Human Pose Estimation and Tracking
+
+7. Deep High-Resolution Representation Learning for Human Pose Estimation

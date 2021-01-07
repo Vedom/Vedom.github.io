@@ -42,4 +42,5 @@ Second Edition](https://www.robots.ox.ac.uk/~vgg/hzbook/)
 * [Arxiv.org](https://arxiv.org/)
 
 ### Blogs and Other Articles
+* [Papers with Code](https://paperswithcode.com/)
 * [Neurohive](https://neurohive.io/en/)

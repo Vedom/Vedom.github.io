@@ -1,7 +1,7 @@
 [Home](index.md) | 
 [Computer Vision](Computer_Vision.md)
 
-# Models
+# Classification Models
 
 ## ResNet
 
@@ -28,3 +28,14 @@
 ## Wide ResNet
 
 ## MNASNet
+
+# Detection Models
+## FasterRCNN
+- Built off of COCO dataset.
+
+
+# Segmentation Models
+
+## FCNResnet 
+- built on ResNet, CoCo dataset
+

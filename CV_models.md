@@ -53,6 +53,7 @@ Most tend to be Multistage RNNs to provide memory between video frames.
     * Body is split into areas of interest
         * biomechanics: frontal, sagittal, transverse planes ![Image of frontal, sagittal, transverse planes](https://upload.wikimedia.org/wikipedia/commons/2/24/Human_anatomy_planes%2C_labeled.svg)
         * skiing: "jacket", "pants"
+    * Identify sequences of actions in the activity, and further break down those actions into phases or steps
 
 **Evaluation Metrics**
 * Percentage of Correct Parts - PCP
@@ -124,6 +125,13 @@ Nice easy blog read through of seven models [here](https://nanonets.com/blog/hum
 - [MPII](http://human-pose.mpi-inf.mpg.de/) (Max Planck Institut Informatik) Human Pose Dataset: 25k images, 40k persons, 410 activities, 16 keypoints
 - [LSP](https://sam.johnson.io/research/lsp.html) (Leeds Sports Pose Dataset): 2k pose-annotated images, 14 keypoints
 - [FLIC](https://bensapp.github.io/flic-dataset.html) (Frames Labeled in Cinema): 5k images from movies, also has superset with ~21k images
+- [Human3.6m](http://vision.imar.ro/human3.6m/description.php): 3.6 m 3D human poses and images, 50Hz video, accurate 3D join positions and angles, 24 keypoints, background subtraction, person bounding boxes
+- HumanEva
+- DensePose
+- SURREAL
+- UP-3D
+- SPORTS 1-M
+- Kinetics
 
 # 3D Pose Estimation
 **3d Estimation approaches**

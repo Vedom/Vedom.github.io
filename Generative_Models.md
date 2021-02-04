@@ -59,7 +59,9 @@ The architecture of VAEs has a theoretical basis derived from Bayes' Theorem alo
 ![encoder_vae](https://miro.medium.com/max/1400/1*XYyWimolMhPDMg8qCNlcwg@2x.png)
 ![decoder_vae](https://miro.medium.com/max/1400/1*1n6HwjwUWbmE9PvCzOVcbw@2x.png)
 ![reparameterization_trick](https://miro.medium.com/max/2000/1*S8CoO3TGtFBpzv8GvmgKeg@2x.png)
+
 This is the final architecture and associate loss function. The architecture is based on replacing a probabilistic model with neural nets to approximate the underlying distributions. It also enforces the nice properties we discussed previously. 
+![](https://miro.medium.com/max/2000/1*eRcdr8gczweQHk--1pZF9A@2x.png)
 - When deriving the loss function shows there's a nice place that shows the direct tradeoff between maximizing the liklihood of the observations and staying close to the prior; in other words, the tradeoff between representing the data well and keeping the representation general enough.
 ![loss_function_tradeoff](https://miro.medium.com/max/1400/1*v56YF5KqZk35r85EZBZuAQ@2x.png)
 

@@ -14,3 +14,5 @@ _One man's nonsense is another man's documentation._
 - [RNNs](RNNs.md)
 - [Computer Vision](Computer_Vision.md)
     - [Computer Vision Models](CV_models.md)
+- [Generative Models](Generative_Models.md)
+

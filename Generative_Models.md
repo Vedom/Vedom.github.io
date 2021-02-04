@@ -1,3 +1,4 @@
+[Home](index.md)
 # Generative Models
 **Resources**
 Great medium article [here](https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73).
@@ -46,7 +47,7 @@ The inputs are ~Gaussian because we can then use a Gaussian-based term in the lo
 - **completeness** - latent space should give meaningful content when decoded
 ![encoded_space_properties_sought](https://miro.medium.com/max/2000/1*83S0T8IEJyudR_I5rI9now@2x.png)
 
-**VAEs could cheat if not regularized with the right loss function.** VAE could return distributions with *tight* variances and/or means that are very far from the original. So we have to penalize both in our loss function by regularizing the covariance matrix and the means of the returned distributions.
+**VAEs could easily become plain ol' autoencoders if not regularized with the right loss function.** VAE could return distributions with *tight* variances and/or means that are very far from the original. So we have to penalize both in our loss function by regularizing the covariance matrix and the means of the returned distributions.
 
 Thus we chose standard Gaussian representations of our inputs, so we could enforce this in the loss function. 
 

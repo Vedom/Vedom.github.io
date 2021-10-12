@@ -70,7 +70,9 @@ In English: A correlation coefficient between the actual cases and their predict
 
 Fantastic explanation [here](http://sdsawtelle.github.io/blog/output/mean-average-precision-MAP-for-recommender-systems.html)
 
-In English: each user gets an average precision of the top n recommendations, then you take the mean of those to get 
+In English: each user gets an average precision of the top n recommendations, then you take the mean of those to get mAP
+
+The precision calculatations are cumulative. So if 0 out of top 1, 1 out of top 3, 2 out of the top 3 are correct, and 2 out of 4, and then 3 out of 5. Then you take 
 
 AKA: MAP, mAP
 
@@ -79,23 +81,34 @@ AKA: MAP, mAP
 **normalized Discounted Cumulative Gains (nDCG)**
 Cumulative Gains - captures idea that more relvant results should be given higher scores. Sum relevancy of each item to get cumulative gain.
 <p align="center">
-  <img eight="100" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/daea2db926c7324e8ed243e6c249a7b75ca2a839">
+  <img height="65" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/daea2db926c7324e8ed243e6c249a7b75ca2a839">
 </p>
 Dicounted Cumulative Gains - adds idea that where the result is, its rank, matters too. So relevant items that appear lower in the list get discounted.
 <p align="center">
-  <img height="100" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3efe45491d555db398ed663107460f81d6ecaf1e">
+  <img height="65" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3efe45491d555db398ed663107460f81d6ecaf1e">
 </p>
 This formulation is used more in practice:
 <p align="center">
-  <img height="100" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d7ce96a2916c5eb451c4da5a1bce54fc9a2f7894">
+  <img height="65" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d7ce96a2916c5eb451c4da5a1bce54fc9a2f7894">
 </p>
 
 Normalized Discounted Cumulative Gains - account for different recommender systems having results with differing potential recommendation counts. The "Ideal" Discounted Cumulative Gain, which is calculated assuming a perfect ranking. RELp is the orderd list of relevant documents.
 <p align="center">
-  <img height="100" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b3510c9c5cf42ee8820d65335675cada51b40736">
+  <img height="65" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b3510c9c5cf42ee8820d65335675cada51b40736">
 </p>
 
+**Mean Reciprocal Rank (MRR)**
+Recommender ranks each item, then each relevant item is given the value of its reciprocal rank or 1/rank. So the first item (if relevant) is 1/1, the third 1/2 and so forth, but only when they are relevant. Then sum the values for MRR.
+<p align="center">
+  <img height="65" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d16e3616105fd3cbad78fa61e2f60c6abb458e26">
+</p>
 
+**Spearman Rank Correlation**
+Correlation between actual ranks and predicted ranks.
+<p align="center">
+  <img height="65" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/93e96a1c1568d0bb08de95c9976f040409e915a1">
+</p>
+where di is the difference between the two ranks of each observation and n is the numer of observations.
 ### Other Classification Metrics
 
 #### ROC Curve and AUC

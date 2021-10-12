@@ -7,7 +7,7 @@
 
 ## Model Performance Metrics
 
-### Confusion Matrix Based Metrics
+### Confusion Matrix Based Metrics (Decision Support)
 
 **Confusion Matrix**
 
@@ -73,6 +73,28 @@ Fantastic explanation [here](http://sdsawtelle.github.io/blog/output/mean-averag
 In English: each user gets an average precision of the top n recommendations, then you take the mean of those to get 
 
 AKA: MAP, mAP
+
+## Ranking Based Methods
+
+**normalized Discounted Cumulative Gains (nDCG)**
+Cumulative Gains - captures idea that more relvant results should be given higher scores. Sum relevancy of each item to get cumulative gain.
+<p align="center">
+  <img eight="100" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/daea2db926c7324e8ed243e6c249a7b75ca2a839">
+</p>
+Dicounted Cumulative Gains - adds idea that where the result is, its rank, matters too. So relevant items that appear lower in the list get discounted.
+<p align="center">
+  <img height="100" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3efe45491d555db398ed663107460f81d6ecaf1e">
+</p>
+This formulation is used more in practice:
+<p align="center">
+  <img height="100" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d7ce96a2916c5eb451c4da5a1bce54fc9a2f7894">
+</p>
+
+Normalized Discounted Cumulative Gains - account for different recommender systems having results with differing potential recommendation counts. The "Ideal" Discounted Cumulative Gain, which is calculated assuming a perfect ranking. RELp is the orderd list of relevant documents.
+<p align="center">
+  <img height="100" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b3510c9c5cf42ee8820d65335675cada51b40736">
+</p>
+
 
 ### Other Classification Metrics
 

@@ -127,6 +127,22 @@ Evaluation metric in object detection for evaluating bounding box prediction.
 
 In English: IoU is the ratio of the area of overlap between actual and predicted bounding box (numerator) and their union (denominator). Bounding boxes are the (x,y) coordinates of the object in the image. IoU > 0.5 is considered "acceptable" and is the typical threshold for a positive label of an instance in an image.
 
+### Other Metrics
+
+**Coverage**
+Percent of total item base that the recommender recommends. Assures nothing is left out.
+
+**Popularity**
+
+
+**Novelty**
+
+
+**Diversity**
+
+
+**Temporal Evaluation**
+Weight ratings base on how old the rating is.
 
 ## Statistics
 
